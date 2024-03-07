@@ -1,5 +1,14 @@
-function nextPage() {
-    window.location.href = "yes.html";
+function yes1() {
+    window.location.href = "yes1.html";
+}
+function yes2() {
+    window.location.href = "yes2.html";
+}
+function no1() {
+    window.location.href = "no1.html";
+}
+function back() {
+    window.location.href = "index.html";
 }
 function moveButton() {
     var x = Math.random() * (window.innerWidth - 150 - document.getElementById('noButton').offsetWidth);

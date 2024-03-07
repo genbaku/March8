@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+    />
     <link rel="stylesheet" href="./style/css/styles.css" />
   </head>
   <body>
     <div class="container">
       <div>
-        <h1 class="header_text">И Я ДУМАЮ ТАК ЖЕ!!!</h1>
+        <h1 class="header_text">Ты мега крутая, умная, модная и красивая?</h1>
       </div>
       <div class="gif_container">
         <img
-          src="./style/images/frog-happi.gif"
+          src="./style/images/happy.gif"
           alt="Cute animated illustration"
           class="selector-block"
         />
         <img
-          src="./style/images/frog-happi.gif"
+          src="./style/images/happy.gif"
           alt="Cute animated illustration"
           class="selector-block"
         />
         <img
-          src="./style/images/frog-happi.gif"
+          src="./style/images/happy.gif"
           alt="Cute animated illustration"
           class="selector-block"
         />
       </div>
-      <p class="text">Всегда помни это!</p>
+      <div class="buttons">
+        <button class="btn" id="yesButton" onclick="yes2()">
+          Да
+        </button>
+        <button class="btn" id="noButton" onmouseover="moveButton()">
+          Нет
+        </button>
+      </div>
     </div>
     <script src="./js/main.js"></script>
   </body>
